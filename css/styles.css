@@ -159,7 +159,9 @@ img {
 .contact-nav-li:focus {
   fill: var(--accent-color);
 }
-
+.contact-icone:hover {
+  color: currentColor;
+}
 /* Hero */
 .hero {
   padding-top: 200px;
@@ -309,6 +311,9 @@ img {
 
 .team-item {
   background-color: var(--primary-bg-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team .title {
   margin-bottom: 0;
@@ -357,6 +362,10 @@ img {
 
 .team-li + .team-li {
   margin-left: 10px;
+}
+.team-li {
+  width: 44px;
+  height: 44px;
 }
 
 .team-backgraund-icon {
@@ -504,6 +513,8 @@ address {
 .buttons-btn:focus {
   background-color: var(--accent-color);
   color: white;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* Projects section buttons-list li button */
